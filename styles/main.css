@@ -46,8 +46,29 @@ h1{
 .conteiner{
     margin-top: 33px;
 }
+.conteiner p{
+    color: hsl(240, 6%, 50%);
+    font-size: 14px;
+    font-weight: 400;
+}
+.conteiner span{
+    color: hsl(240, 6%, 50%);
+    font-weight: 500;
+    
+}
+.conteiner span:hover{
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
 .faq{
     margin-bottom: 20PX;
     width: 21.8rem;
     border-bottom: solid 1px #E9E9E9;
+}
+.faq .arrow{
+    display: flex;
+    justify-content: space-between;
+}
+.faq .arrow img{
+    height: 7px;
 }
