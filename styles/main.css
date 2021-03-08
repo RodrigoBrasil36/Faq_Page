@@ -13,24 +13,24 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3rem;
 
 }
 section {
-    width: 920px;
-    height: 509px;
+    width: 57.5rem;
+    height: 31.8rem;
     background:#ffffff;
     border-radius: 1.3rem;
 
     display: flex;
-
     align-items: center;
 }
 h1{
     font-size: 34px;
 }
 .mockup{
-    height: 509px;
-    width: 480px;
+    height: 31.8rem;
+    width: 30rem;
     background-image: url("../images/bg-pattern-desktop.svg");
     background-position: -573px -300px;
     background-repeat: no-repeat;
@@ -94,4 +94,28 @@ h1{
 }
 .active span{
     font-weight: 700;
+}
+
+
+.attribution{
+    margin-top: -11px;
+    font-size: 11px; 
+    text-align: center; 
+    color: #E9E9E9;
+}
+.attribution a { color: hsl(14, 88%, 65%); 
+}
+@media(max-width:942px){
+    .mockup{
+        height: 31.8rem;
+        width: 26rem;
+        background-position: -573px -300px;
+    }
+    .woman_img{
+        height: 100%;
+        background:url("../images/illustration-woman-online-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: -80px 72px;
+        background-size:  100%;
+    } 
 }
