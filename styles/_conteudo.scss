@@ -1,0 +1,27 @@
+.conteudo{
+    margin-top: -30px;
+
+    .conteiner{
+        padding-top: 33px;
+    
+        p{
+            color: $dark_grayish_blue;
+            font-size: 13px;
+            font-weight: 400;
+            margin-bottom: 22px;
+        }
+
+        span{
+            color: $very_dark_grayish_blue;
+            font-weight: 500;
+        
+        &:hover{
+            color:$soft_red;
+            cursor: pointer;
+            transition: 0.3s;
+            }
+        }
+
+    }
+}
+   

@@ -1,0 +1,44 @@
+$soft_red:hsl(14, 88%, 65%);
+$very_dark_grayish_blue:hsl(237, 12%, 33%);
+$dark_grayish_blue:hsl(240, 6%, 50%);
+$gray:#E9E9E9;
+$white:#ffffff;
+$soft_violet:hsl(273, 75%, 66%);
+$soft_blue:hsl(240, 73%, 65%);
+
+@mixin aling ($iscontent: true){
+    display: flex;
+    align-items: center;
+    @if $iscontent{
+        justify-content: center;
+    }
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+
+    background: linear-gradient(to bottom,$soft_violet,$soft_blue);
+}
+main{
+    height: 100vh;
+    @include aling;
+    padding: 3rem;
+
+}
+section {
+    width: 57.5rem;
+    height: 31.8rem;
+    background:$white;
+    border-radius: 1.3rem;
+
+    @include aling(false);
+}
+h1{
+    font-size: 34px;
+}

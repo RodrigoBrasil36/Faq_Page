@@ -1,0 +1,30 @@
+.faq{
+    margin-bottom: 22PX;
+    width: 21.8rem;
+    border-bottom: solid 1px $gray;
+
+    .arrow{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+        img{
+            align-self: center;
+        }
+    }
+    .resposta{
+        display: none;
+        
+        .active{
+            display: block;
+            img{
+                transform:rotate(180deg);
+                transition: all 0.2s ease-in;
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+
+    }
+}
